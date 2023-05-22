@@ -1,0 +1,94 @@
+body{
+    background-image: url(https://www.javeriana.edu.co/pesquisa/wp-content/uploads/2022/12/portada-inteligencia-artificial.jpg);
+    background-size: cover;
+    font-family: cursive;
+    height: 100v;
+}
+
+.card {
+   
+    background: rgb(14, 0, 19);
+    opacity: .7;
+    position: absolute;
+    height: 350px;
+    width: 250px;
+    color: rgb(36, 200, 230);
+    border-radius: 10px;
+    left: 60%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    padding: 45px 20px;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    color: rgb(252, 235, 5);
+}
+
+.lg{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: calc(55% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+input{
+    
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid rgb(238, 233, 233);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(247, 240, 240);
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1204df;
+    color: rgb(227, 232, 236);
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+  }
+
+
+a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(228, 238, 252);  
+}
+
+a:hover {
+    color: #fff;
+}
+
